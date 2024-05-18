@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* typo, color, font */
+
+body {
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    background-color: hsl(204, 43%, 93%);
+    box-sizing: border-box;
+}
+
+.bright-yellow {
+    color: #C0DF33;
+}
+
+.cyan {
+    color: #2AB3B1;
+}
+
+.white {
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.card {
+    display: block;
+    padding: 1.5rem 2.5rem;
+    width: 280px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.card__white {
+    background-color: white;
+}
+
+.card__cyan {
+    background-color: #2AB3B1;
+}
+
+.card__opacity {
+    opacity: 0.8;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.125rem;
+}
+
+.description__small {
+    font-size: 0.875rem;
+
+}
+
+.line-height-short {
+    line-height: 1.25rem;
+}
+
+.line-height-long {
+    line-height: 1.75rem;
+}
+
+.cost__container {
+    height: 2rem;
+    position: relative;
+}
+
+.cost {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cost__description {
+    font-weight: 400;
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+.cost__position {
+    padding-left: 0.75rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-main {
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #C0DF33;
+    color: white;
+    padding: .875rem 0;
+    border: 0;
+    width: 100%;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (min-width : 780px) {
+    .card {
+        /* padding: 1.5rem; */
+    }
+}
